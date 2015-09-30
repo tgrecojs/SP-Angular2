@@ -7,18 +7,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     }
 };
 var angular2_1 = require('angular2/angular2');
-var AppComponent = (function () {
-    function AppComponent() {
+var ExampleComponent = (function () {
+    function ExampleComponent() {
         this.name = "Thomas Greco";
     }
-    AppComponent = __decorate([
+    ExampleComponent = __decorate([
         angular2_1.Component({
             selector: 'user-name'
         }),
         angular2_1.View({
-            template: '<h1>My name is Thomas Greco</h1>'
+            template: '<h1>My name is {{ name }}</h1>'
         })
-    ], AppComponent);
-    return AppComponent;
+    ], ExampleComponent);
+    return ExampleComponent;
 })();
-angular2_1.bootstrap(AppComponent);
+angular2_1.bootstrap(ExampleComponent);

@@ -5,7 +5,7 @@ import {Component, View, bootstrap} from 'angular2/angular2';
 @View({
   template: '<h1>My name is {{ name }}</h1>'
 })
-class AppComponent {
+class ExampleComponent {
 	name: "Thomas Greco"
 }
-bootstrap(AppComponent);
+bootstrap(ExampleComponent);
