@@ -1,8 +1,8 @@
-function ExampleComponent () {
+function UserComponent () {
 	this.name = 'Tom Greco'
 };
 
-ExampleComponent.annotations = [
+UserComponent.annotations = [
     new angular.ComponentAnnotation({
         selector: 'user-name'
     }),
