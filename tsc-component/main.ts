@@ -1,11 +1,11 @@
 import {Component, View, bootstrap} from 'angular2/angular2';
 @Component({
-  selector: 'user-name'
+	selector: 'user-name'
 })
 @View({
-  template: '<h1>My name is {{ name }}</h1>'
+	template: '<h1>My name is {{ name }}</h1>'
 })
-class ExampleComponent {
-	name: "Thomas Greco"
+class UserComponent {
+	name: 'Thomas Greco'
 }
-bootstrap(ExampleComponent);
+bootstrap(UserComponent);
