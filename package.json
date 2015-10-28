@@ -1,0 +1,23 @@
+{
+  "name": "sp-angular-2",
+  "version": "1.0.0",
+  "description": "Angular 2 component ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasjosephgreco/SP-Angular2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasjosephgreco/SP-Angular2/issues"
+  },
+  "homepage": "https://github.com/thomasjosephgreco/SP-Angular2#readme",
+  "dependencies": {
+    "finalhandler": "^0.4.0",
+    "serve-static": "^1.10.0"
+  }
+}
